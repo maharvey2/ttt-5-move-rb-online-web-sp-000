@@ -16,6 +16,7 @@ end
 def move(board, index, value)
   board[index] = value
 end
+board
 
 def  move(board, index, player = "X")
   board[index] = player
