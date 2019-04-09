@@ -23,6 +23,6 @@ end
 #board # ["X", " ", " "]
 
 
-#def move(board, index, user_input = "X")
-#  board[index] = user_input
-#end
+def move(board, index, user_input = "X")
+  board[index] = user_input
+end
