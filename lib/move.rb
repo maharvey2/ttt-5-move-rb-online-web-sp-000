@@ -29,3 +29,4 @@ end
 
 def move(move)
   move << "user_input"
+end
