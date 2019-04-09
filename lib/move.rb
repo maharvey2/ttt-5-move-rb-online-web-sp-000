@@ -13,15 +13,15 @@ def input_to_index(user_input)
 end
 
 
-
+board =  [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def update_array_at_with(array, index, value)
   array[index] = value
 end
 
-def endupdate_array_at_with(board, 0, "X")
+#update_array_at_with(board, 0, "X")
 # The element at index 0 of array 'board' is set to the value "X"
-board =  [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-end
+#board # ["X", " ", " "]
+
 
 def move(board, index, user_input = "X")
   board[index] = user_input
