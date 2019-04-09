@@ -18,9 +18,10 @@ def update_array_at_with(array, index, value)
   array[index] = value
 end
 
-update_array_at_with(board, 0, "X")
+def update_array_at_with(board, 0, "X")
 # The element at index 0 of array 'board' is set to the value "X"
-board #=> ["X", " ", " "]
+board << ["X", " ", " "]
+end
 
 def move(board, index, user_input = "X")
   board[index] = user_input
