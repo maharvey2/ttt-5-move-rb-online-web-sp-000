@@ -27,6 +27,6 @@ def move(board, index, user_input = "X")
   board[index] = user_input
 end
 
-def move(move)
-  move << "user_input"
-end
+#def move(move)
+#  move << "user_input"
+#end
