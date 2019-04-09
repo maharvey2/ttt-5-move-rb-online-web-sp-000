@@ -22,7 +22,7 @@ end
 # The element at index 0 of array 'board' is set to the value "X"
 #board # ["X", " ", " "]
 def board(display_board)
-
+board = display_board
 end
 
 def move(board, index, user_input = "X")
